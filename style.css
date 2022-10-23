@@ -1,0 +1,58 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#hero {
+  width: 592px;
+  margin: auto;
+  margin: 0 auto 72px; /* 0 ficou no topo ---- auto laterais ---- 72px ficou na fim da pagina --- CASO precise colocar uma distancia para cada lado ficaria assim : 0 - top / 70 lateral  esquerda / 70 baixo  / 70 lateral direita - funcionando como relogio */
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 56px;
+  margin-bottom: 32px;
+}
+h1 span {
+  font-weight: bold;
+}
+
+span,
+a {
+  color: #ff9900;
+}
+
+p,
+#footer {
+  color: #7d7987;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a {
+  /* Aqui vc esta dizendo, pegue o a que tem antes deste primeiro a e tire  do lado esquerdo.*/
+  margin-left: 28px;
+}
+
+.line {
+  /* Ponto esta na frente quando é uma class */
+  width: 568px;
+  height: 0px;
+  border: 1px #eceff2 solid;
+  margin: 0 auto;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
